@@ -1,0 +1,3 @@
+* asked claude "find me a dataset for crime in san marcos"
+* claude gave us this website "https://services1.arcgis.com/Hug9pbs2TYetbCha/ArcGIS/rest/services/Cite_and_Release_2026/FeatureServer"
+* used r code to convert json code into csv files
