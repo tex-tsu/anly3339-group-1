@@ -25,3 +25,5 @@ Directions:
 
 
 Our Topic: Besag York Mollie Spatial Modeling for Crimes in San Marcos, TX.
+
+We can investigate how zip codes have an effect on each other in terms of crime rates.
