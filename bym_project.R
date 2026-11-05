@@ -10,6 +10,18 @@ library(tidygeocoder)
 library(dplyr)
 
 
+#THIS IS WHERE THE DATA COMES FROM:
+library(sf)
+
+url <- paste0(
+  "https://services1.arcgis.com/Hug9pbs2TYetbCha/ArcGIS/rest/services/",
+  "Cite_and_Release_2026/FeatureServer/0/query",
+  "?where=1%3D1&outFields=*&outSR=4326&f=geojson"
+)
+
+df <- st_read(url)
+
+
 df <- read.csv("C:/Users/tex/Desktop/TXST/ANLY 3339/group_project_1/cite_and_release.csv")
 
 #st_write(df, "C:/Users/tex/Desktop/TXST/ANLY 3339/group_project_1/cite_and_release.csv",
